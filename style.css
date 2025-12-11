@@ -1,19 +1,45 @@
 body {
-    background-color: #d5f4e6;
-    font-family: Arial;
-    padding: 50px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #97a997;
+  color: #333;
 }
 
-h1 {
-    color: #27ae60;
-    font-size: 45px;
-    text-align: center;
+.hero {
+  color: rgb(15, 15, 15);
+  text-align: center;
+  padding: 100px 20px;
 }
 
-img {
-    display: flex;
-    width: 400px;
-    max-width: 100%;
-    border-radius: 10px;
-    margin: 20px 0;
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 20px;
+}
+
+.animals {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+}
+
+.animal {
+  border-radius: 10px;
+  padding: 15px;
+  width: 220px;
+}
+
+.animal img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.animal h3 {
+  margin-top: 10px;
+  color: #2e7d32;
 }
